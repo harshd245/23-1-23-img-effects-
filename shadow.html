@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+.shadow img {
+transition: .5s ease;
+}
+.shadow img:hover{
+box-shadow:
+10px 10px  #f60808,
+20px 20px  #f4f00a,
+30px 30px  #1cf608,
+40px 40px  #0cc8e9,
+50px 50px  #0c40e9,
+60px 60px  #e90c82;
+-webkit-transform: translateX(-3px);
+transform: translateX(-3px);
+transition: .5s ease;
+}
+
+img{
+            position: absolute;
+            top:20%;
+            left:30%;
+            width: 500px; ;
+            height: 400px; ;
+            transition:.4s ease-in-out;
+        }
+</style>
+</head>
+<body>
+<div class="shadow">
+    <img src="https://m.media-amazon.com/images/M/MV5BNjQ2MDU0ODEtNTk4Yi00OTk3LTg2OGItYTc5ZDA0MWIzZTMxXkEyXkFqcGdeQXVyNDAzNDk0MTQ@._V1_.jpg">
+</div>
+</body>
+</html>

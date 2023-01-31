@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+.rotate img{
+transition: 1s ease;
+}
+.rotate img:hover{
+-webkit-transform: rotateZ(-400deg);
+-ms-transform: rotateZ(-400deg);
+transform: rotateZ(-400deg);
+transition: 1s ease;
+}
+
+img{
+            position: absolute;
+            top:20%;
+            left:30%;
+            width: 400px; ;
+            height: 400px; ;
+            transition:.4s ease-in-out;
+        }
+
+</style>
+</head>
+<body>
+    <div class="rotate">
+        <img src="https://i.pinimg.com/736x/58/1e/fa/581efa65cec3ff19597aabfdfcb0a2d5.jpg">
+    </div>
+</body>
+</html>

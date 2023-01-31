@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+.brighten img {
+-webkit-filter: brightness(50%);
+-webkit-transition: all 1s ease;
+-moz-transition: all 1s ease;
+-o-transition: all 1s ease;
+-ms-transition: all 1s ease;
+transition: all 1s ease;
+}
+.brighten img:hover {
+-webkit-filter: brightness(100%);
+}
+
+img{
+            position: absolute;
+            top:20%;
+            left:30%;
+            width: 500px; ;
+            height: 400px; ;
+            transition:.4s ease-in-out;
+        }
+
+
+</style>
+</head>
+<body>
+
+<div class="brighten">
+    <img src="https://i.pinimg.com/originals/83/b8/72/83b8727b35e39936cff23278177a47c4.jpg">
+</div>
+
+</body>
+</html>
